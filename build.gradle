@@ -56,11 +56,6 @@ buildscript {
     }
 }
 
-buildScan {
-    licenseAgreementUrl = 'https://gradle.com/terms-of-service'
-    licenseAgree = 'yes'
-}
-
 allprojects {
     apply plugin: "idea"
     apply plugin: "eclipse"
